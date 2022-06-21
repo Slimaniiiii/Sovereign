@@ -1,0 +1,27 @@
+{
+    "name": "sovereign",
+    "displayName": "Sovereign",
+    "description": "Sovereign Theme",
+    "version": "0.0.1",
+    "publisher": "Houssem Slimani",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "sovereign",
+        "dark theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sovereign",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sovereign-color-theme.json"
+            }
+        ]
+    }
+}
