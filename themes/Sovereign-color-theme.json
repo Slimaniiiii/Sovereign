@@ -110,9 +110,9 @@
 		"minimapGutter.addedBackground": "#FF6F18",
 		"minimapGutter.deletedBackground": "#b18307",
 		"minimapGutter.modifiedBackground": "#FFFFFF",
-		"minimapSlider.activeBackground": "#FFFFFFb0",
-		"minimapSlider.background": "#FFFFFF80",
-		"minimapSlider.hoverBackground": "#FFFFFFa0",
+		"minimapSlider.activeBackground": "#ffffff33",
+		"minimapSlider.background": "#ffffff33",
+		"minimapSlider.hoverBackground": "#ffffff33",
 		"notificationLink.foreground": "#7F916C",
 		"notifications.background": "#011627",
 		"notifications.foreground": "#A9A4C2",
@@ -382,10 +382,10 @@
 		},
 		{
 		  "scope": [
-			"variable.other.object.js",
+			// "variable.other.object.js",
 			"storage.type.js",
 			"string.other.link.title.markdown",
-			"variable.other.readwrite.js",
+			// "variable.other.readwrite.js",
 			"variable.other.property.js"
 		  ],
 		  "settings": {
@@ -487,7 +487,6 @@
 			"support.other.namespace.php",
 			"markup.changed.git_gutter",
 			"support.type.sys-types",
-			"entity.other.attribute-name.html"
 		  ],
 		  "settings": {
 			"foreground": "#FFC625"
@@ -541,7 +540,7 @@
 			"support.function"
 		  ],
 		  "settings": {
-			"foreground": "#FFC625"
+			"foreground": "#31eccd"
 		  }
 		},
 		{
@@ -554,8 +553,9 @@
 			"support.constant",
 			"entity.other.attribute-name.html",
 			"string.quoted.single.js",
+			"string.quoted.double.js",
 			"storage.type.function.js",
-			"meta.object-literal.key"
+			// "meta.object-literal.key"
 		  ],
 		  "settings": {
 			// "foreground": "#e78282"
